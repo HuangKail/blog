@@ -1,0 +1,18 @@
+{
+    "name": "logNode",
+    "version": "0.0.1",
+    "devDependencies": {
+        "mongodb": "*",
+        "fs": "*",
+        "http": "*",
+        "querystring": "*",
+        "koa": "*",
+        "swig": "*",
+        "koa-route": "*",
+        "co-body": "*",
+        "co-views": "*",
+        "koa-qs": "*",
+        "crypto": "*",
+        "geoip-lite": "*"
+    }
+}
