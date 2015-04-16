@@ -1,9 +1,9 @@
 var koa = require('koa');
-
 var app = koa();
+var route = require('koa-route');
 
-app.use(function * () {
-    this.body = 'helloworld';
-});
+var routes = require('./routes');
 
-app.listen(80);
+app.use(route.get('/posts/:id', routes.posts));
+
+app.listen(3000);
