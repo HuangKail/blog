@@ -6,4 +6,4 @@ var routes = require('./routes');
 
 app.use(route.get('/posts/:id', routes.posts));
 
-app.listen(3000);
+app.listen(3001);
